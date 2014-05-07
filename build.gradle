@@ -12,10 +12,11 @@ targetCompatibility = 1.5
 
 
 repositories {
-        
-     maven { url "http://repo.maven.apache.org/maven2" }
+    maven { url "http://repo.maven.apache.org/maven2" }
+    maven { url "https://github.com/imulus/signpost-retrofit/blob/master/" }
 }
 dependencies {
     compile group: 'com.squareup.retrofit', name: 'retrofit', version:'1.0.2'
     compile group: 'oauth.signpost', name: 'signpost-core', version:'1.2.1.2'
+    compile 'se.akerfeldt:signpost-retrofit:0.0.1'
 }
